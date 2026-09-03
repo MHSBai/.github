@@ -28,7 +28,13 @@ Law firms, in-house legal departments, and legal-tech teams adopting AI in regul
 ### Open work
 
 - **[intake-triage-mcp](https://github.com/granolacowboy/intake-triage-mcp)** — a deterministic MCP server for legal intake triage: practice-area lookup, conflict-screening gate, matter validation, human override, provenance, and an evaluation harness.
+- **[llm-security-for-law-firms](https://github.com/MHSBai/llm-security-for-law-firms)** — a practical threat model and adoption checklist for deploying LLMs in regulated legal work.
+- **[intake-eval-harness](https://github.com/granolacowboy/intake-eval-harness)** — a deterministic evaluation harness for MCP servers; how we hold "it works means it passes" to account.
 - **[granolacowboy.dev](https://granolacowboy.dev)** — field notes on deploying AI inside regulated legal work.
+
+### Engagements
+
+We typically work in three stages: **Audit** (an AI-readiness and security review of a target workflow) → **Pilot** (a scoped, evaluated build) → **Production** (embedded, forward-deployed rollout). Fixed-scope assessments and embedded builds are both available.
 
 ### Security &amp; responsible AI
 
