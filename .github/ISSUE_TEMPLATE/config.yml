@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Book a scoping call
+    url: https://mhsbsolutions.com
+    about: Consulting and forward-deployed engagements for legal AI.
+  - name: Security disclosure
+    url: https://github.com/MHSBai/.github/blob/main/SECURITY.md
+    about: Report a vulnerability privately — please do not open a public issue.
