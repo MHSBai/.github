@@ -4,7 +4,7 @@ MHSB Solutions builds AI systems for regulated legal work. We take security and 
 
 ## Reporting a vulnerability
 
-Please report suspected vulnerabilities privately — **do not open a public issue**.
+Please report suspected vulnerabilities privately, **do not open a public issue**.
 
 - Email **security@mhsbsolutions.com** (or **hello@mhsbsolutions.com**), or
 - Use GitHub **Private vulnerability reporting** on the affected repository (Security → Report a vulnerability).
