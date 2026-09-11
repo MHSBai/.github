@@ -1,30 +1,57 @@
-# Security Policy
+# Security Policy for MHSB Solutions
 
-MHSB Solutions builds AI systems for regulated legal work. We take security and the confidentiality of client and matter data seriously, and we welcome coordinated disclosure.
+As a forward-deployed engineering firm operating in the legal vertical, MHSB Solutions treats security, data provenance, and confidentiality as foundational infrastructure, not afterthoughts. 
 
-## Reporting a vulnerability
+Our systems handle intake routing, conflict screening, and drafting pipelines for regulated organizations. We operate under the assumption that all data flowing through our architecture may be subject to attorney-client privilege, work-product doctrine, or strict PII/PHI regulations.
 
-Please report suspected vulnerabilities privately, **do not open a public issue**.
+We take all security vulnerabilities seriously and are committed to a Coordinated Vulnerability Disclosure (CVD) process.
 
-- Email **security@mhsbsolutions.com** (or **hello@mhsbsolutions.com**), or
-- Use GitHub **Private vulnerability reporting** on the affected repository (Security → Report a vulnerability).
+## Supported Versions
 
-Include, where possible: the affected repository and version/commit, a description of the issue and its impact, and reproduction steps or a proof of concept. Please do not include real client, matter, or personal data in your report.
+We provide security updates for the latest major versions of our active open-source and proprietary tools. If you are operating a legacy deployment, please consult your MatterCare Optimization SLA or contact your MHSB integration lead.
 
-## What to expect
+| Version | Supported          | Notes |
+| ------- | ------------------ | ----- |
+| `1.x`   | :white_check_mark: | Active development and security patches |
+| `< 1.0` | :x:                | Deprecated. Please upgrade to latest stable release |
 
-- **Acknowledgement** within 3 business days.
-- **Assessment and triage** within 10 business days, with a severity and a remediation plan.
-- **Coordinated disclosure:** we will agree a disclosure timeline with you and credit you (if you wish) once a fix is available. Our default target is a fix or mitigation within 90 days of triage.
+## Reporting a Vulnerability
 
-## Scope
+**Do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.** 
 
-This policy covers the source code in repositories under the MHSB Solutions organization and repositories authored by Rich Berman ([@granolacowboy](https://github.com/granolacowboy)). Findings in third-party dependencies should be reported upstream; tell us too if a MHSB project is affected.
+Public disclosure of a vulnerability before a patch is deployed puts our law firm partners and their clients at risk. 
 
-## Data handling
+If you believe you have found a security vulnerability in any MHSB Solutions repository, system, or Lawmatics integration engine, please email us immediately at:
 
-Our tools are designed to minimize data collection, keep decision paths deterministic and auditable, and apply redaction and least privilege by default. If you believe a MHSB project mishandles data, report it through the channels above and we will treat it with priority.
+📧 **security@mhsbsolutions.com**
 
-## Safe harbor
+### What to include in your report:
+To help us triage and resolve the issue quickly, please include:
+*   **Target:** The specific repository, MCP server, or integration flow affected.
+*   **Type:** The class of vulnerability (e.g., Prompt Injection, IDOR, SSRF, Authorization Bypass).
+*   **Steps to Reproduce:** A benign, non-destructive proof of concept (PoC) or explicit steps to recreate the issue.
+*   **Impact:** Your assessment of how this could be exploited (e.g., "Allows bypass of the deterministic conflict-check gate," or "Permits cross-tenant data leakage in the LLM context window").
 
-We will not pursue or support legal action against researchers who act in good faith, avoid privacy violations and service degradation, and give us a reasonable opportunity to remediate before public disclosure.
+## Our Response Process (SLA)
+
+When you submit a vulnerability report, you can expect the following operational cadence:
+
+1.  **Acknowledgment (Within 24 Hours):** We will acknowledge receipt of your report and begin our triage process.
+2.  **Triage & Verification (Within 48 Hours):** We will confirm the vulnerability and assess its severity (CVSS) and potential impact on attorney-client data.
+3.  **Remediation & Patching:** We will develop, test, and deploy a patch. The timeline depends on severity, but critical vulnerabilities affecting data isolation or prompt integrity are treated as drop-everything emergencies.
+4.  **Coordinated Disclosure:** Once the vulnerability is mitigated and our partners are secured, we will coordinate with you on public disclosure (and attribution, if desired).
+
+## Legal AI Threat Models
+
+Because we build deterministic, human-in-the-loop AI systems for the legal profession, we are particularly interested in vulnerability reports concerning:
+*   **Prompt Injection / Jailbreaking:** Attempts to force our MCP servers or LLM integrations to bypass hard gates or execute unauthorized tool calls.
+*   **Data Exfiltration:** Mechanisms that could trick an AI agent into summarizing or exposing confidential matter data to unauthorized endpoints.
+*   **Role-Based Access Control (RBAC) Bypass:** Flaws that would allow an associate or paralegal to view partner-level dashboards or sealed matter records.
+*   **Lawmatics API Abuse:** Misconfigurations or flaws that could result in unauthorized pipeline movement, data overwrites, or webhook manipulation.
+
+## Safe Harbor
+
+MHSB Solutions supports safe harbor for security researchers. We will not pursue legal action against researchers who discover and report vulnerabilities in good faith, provided they adhere to this policy, do not exploit the vulnerability beyond what is necessary to prove its existence, and do not compromise, alter, or expose live client data.
+
+---
+*For general inquiries, workflow audits, or ABA Formal Opinion 512 readiness diagnostics, please visit [efficient.esq](https://efficient.esq) or [mhsbsolutions.com](https://mhsbsolutions.com).*

@@ -4,44 +4,34 @@
 
 <p align="center">
   <a href="https://mhsbsolutions.com">mhsbsolutions.com</a> ·
-  <a href="https://granolacowboy.dev">granolacowboy.dev</a> ·
-  <a href="mailto:hello@mhsbsolutions.com">hello@mhsbsolutions.com</a>
+  <a href="https://efficient.esq">efficient.esq</a> ·
+  <a href="https://lexlabsystems.com">LexLab Systems</a>
 </p>
 
 ---
 
-### What we do
+### Built by operators, not hype merchants.
 
-MHSB Solutions puts AI to work *inside* law firms and legal teams: intake automation, conflict screening, and drafting pipelines engineered for regulated, high-stakes work. We turn difficult legal workflows into production systems, focusing on the discovery, integration, evaluation, and adoption work that moves applied AI beyond a demo and into daily practice.
+MHSB Solutions puts AI to work *inside* law firms and legal teams. We turn difficult legal workflows—intake automation, conflict screening, and drafting pipelines—into production systems engineered for regulated, high-stakes work.
 
-### Who we serve
+We serve law firms, in-house legal departments, and legal-tech teams adopting AI in change-resistant environments, where auditability, provenance, and adoption matter as much as raw model capability.
 
-Law firms, in-house legal departments, and legal-tech teams adopting AI in regulated, change-resistant environments, where auditability, provenance, and adoption matter as much as raw model capability.
+### Our Ecosystem
 
-### How we work
+The MHSB network spans consulting, productized automation, and governance:
+
+*   **[MHSB Solutions](https://mhsbsolutions.com):** Custom implementation, integrations (Clio, MyCase, Lawmatics), and optimization.
+*   **[LexLab Systems](https://lexlabsystems.com):** Single-outcome, automated Lawmatics systems (like the Intake Velocity Engine) deployed directly into firm accounts.
+*   **[efficient.esq](https://efficient.esq):** AI governance, workflow diagnostics, and ABA Formal Opinion 512 readiness reviews.
+
+### How We Work
 
 - **Forward-deployed.** We embed in the real workflow and ship inside it, not from the outside in.
-- **Security-first.** A security researcher's habits applied to AI adoption: least privilege, provenance, redaction, and coordinated disclosure. See [`SECURITY.md`](https://github.com/MHSBai/.github/blob/main/SECURITY.md).
-- **Deterministic + human-in-the-loop.** Hard gates and override points, not prompt-and-pray. The decision path is auditable.
-- **Evaluation-driven.** Every capability ships with an eval harness; "it works" means the evals pass, not that it demoed.
+- **Security-first.** We apply a security researcher's habits to AI adoption: least privilege, provenance, redaction, and coordinated disclosure. See our [`SECURITY.md`](https://github.com/MHSBai/.github/blob/main/SECURITY.md).
+- **Deterministic + human-in-the-loop.** We build with hard gates and override points, not prompt-and-pray. The language model does the language work; the deterministic systems do the record work.
 
-### Open work
+### Open Source Initiatives
 
-- **[intake-triage-mcp](https://github.com/granolacowboy/intake-triage-mcp):** a deterministic MCP server for legal intake triage: practice-area lookup, conflict-screening gate, matter validation, human override, provenance, and an evaluation harness.
-- **[llm-security-for-law-firms](https://github.com/MHSBai/llm-security-for-law-firms):** a practical threat model and adoption checklist for deploying LLMs in regulated legal work.
-- **[intake-eval-harness](https://github.com/granolacowboy/intake-eval-harness):** a deterministic evaluation harness for MCP servers; how we hold "it works means it passes" to account.
-- **[granolacowboy.dev](https://granolacowboy.dev):** field notes on deploying AI inside regulated legal work.
+We believe in standardizing secure AI practices for the legal industry.
 
-### Engagements
-
-We typically work in three stages: **Audit** (an AI-readiness and security review of a target workflow) → **Pilot** (a scoped, evaluated build) → **Production** (embedded, forward-deployed rollout). Fixed-scope assessments and embedded builds are both available.
-
-### Security &amp; responsible AI
-
-We treat client and matter data as privileged by default: minimized collection, provenance on every automated decision, and a coordinated-disclosure policy for anything we ship. Reporting details are in [`SECURITY.md`](https://github.com/MHSBai/.github/blob/main/SECURITY.md).
-
-### Get in touch
-
-Building or adopting AI in a regulated legal environment? **[hello@mhsbsolutions.com](mailto:hello@mhsbsolutions.com)** · **[mhsbsolutions.com](https://mhsbsolutions.com)**
-
-<sub>Led by Rich Berman (<a href="https://github.com/granolacowboy">@granolacowboy</a>), ten years forward-deployed in the legal vertical.</sub>
+*   **[`llm-security-for-law-firms`](https://github.com/MHSBai/llm-security-for-law-firms):** A practical threat model and adoption checklist for deploying LLMs inside law firms.
