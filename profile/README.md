@@ -35,4 +35,4 @@ The MHSB network spans consulting, productized automation, and governance:
 
 ### Work With Us
 
-Adopting AI in a regulated practice and want it done defensibly? Reach us at **[hello@mhsbsolutions.com](mailto:hello@mhsbsolutions.com)** or start at [mhsbsolutions.com](https://mhsbsolutions.com).
+Adopting AI in a regulated practice and want it done defensibly? Reach us at **[info@mhsbsolutions.com](mailto:info@mhsbsolutions.com)** or start at [mhsbsolutions.com](https://mhsbsolutions.com).
