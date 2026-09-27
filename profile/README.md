@@ -1,6 +1,6 @@
 <h1 align="center">MHSB Solutions</h1>
 
-<p align="center"><strong>Applied AI and forward-deployed engineering for the legal profession. Security-first.</strong></p>
+<p align="center"><strong>Implementation, automation, and support for the systems law firms run on, with partner depth in Clio, MyCase, and Lawmatics. Security-first.</strong></p>
 
 <p align="center">
   <a href="https://mhsbsolutions.com">mhsbsolutions.com</a> ·
@@ -29,7 +29,6 @@ The MHSB network spans consulting, productized automation, and governance:
 
 ### How We Work
 
-- **Forward-deployed.** We embed in the firm's real workflow and build inside it, alongside the people who use it.
 - **Security-first.** We treat AI adoption as a security discipline: least privilege, provenance, redaction, and coordinated disclosure. See our [`SECURITY.md`](https://github.com/MHSBai/.github/blob/main/SECURITY.md).
 - **Attorney-in-the-loop by design.** We build with hard gates and override points at the decisions that matter. The language model does the language work; deterministic systems do the record work.
 
